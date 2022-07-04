@@ -12,7 +12,7 @@ More recently we have been focusing on use cases for the process of landmarking 
 
 
 <a href="https://www.youtube.com/watch?v=XzY7f1UY25o">
-<img alt="Doing landmarking" src="https://img.youtube.com/vi/Z7A7ZmbyM20/0.jpg">
+<img alt="Doing landmarking" src="https://img.youtube.com/vi/XzY7f1UY25o/0.jpg">
 </a>
 
 Figure 1: Introductory video showing landmarking using BabelVR. Click on the image above to see a video.
