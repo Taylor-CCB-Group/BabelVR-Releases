@@ -100,15 +100,15 @@ This is very useful for rescaling the values of the voxels of the volume.
 
 _value_ has a range associated with it (valueRangeMin and valueRangeMax)
 
-`valueRangeMin: Rescale values according to the formula:
-(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin).
-valueRangeMax: Rescale values according to the formula:
-(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin)`
+`valueRangeMin`: Rescale values according to the formula:
+`(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin)`.
+`valueRangeMax`: Rescale values according to the formula:
+`(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin)`
 
 and similarly _cutValue_
 
-`cutValueRangeMin: Before rescaling, set values below cutValueRangeMin to 0.
-cutValueRangeMax: Before rescaling, set values above cutValueRangeMax to 0.`
+`cutValueRangeMin`: Before rescaling, set values below `cutValueRangeMin` to 0.
+`cutValueRangeMax`: Before rescaling, set values above `cutValueRangeMax` to 0.`
 
 <img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo2.png" width="50%" height="auto">
 
