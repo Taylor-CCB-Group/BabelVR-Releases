@@ -58,7 +58,7 @@ In the software they look like this. Access the different functions by moving th
 <img src="https://user-images.githubusercontent.com/10518908/175566807-71ee7eb8-0b10-4cc7-b5ee-cb343b5576c9.png">
 
 # More On Folders
-As discussed a `BabelVR` folder in `My Documents` will be created. In this folder There are various subfolders that are useful. The following folders are of use.
+As discussed a `BabelVR` folder in `My Documents` will be created. In this folder are various subfolders. The following folders are relevant to end-users:
 ## Nii
 Place all your Niftii (Nii) images here and they will be accessible from the Volumes menu.
 ## Objects
