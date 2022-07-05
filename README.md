@@ -98,9 +98,7 @@ This allows you to directly interact with one volume. If you have loaded more th
 ## Data
 This is very useful for rescaling the values of the voxels of the volume.
 
-_value_ has a range associated with it (`valueRangeMin` and `valueRangeMax`)
-
-`valueRangeMin` / `valueRangeMax` : Rescale values according to the formula:
+_value_ has a range associated with it (`valueRangeMin` and `valueRangeMax`): voxel density values will be scaled according to the formula:
 `(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin)`.
 
 and similarly _cutValue_; values outside the range `cutValueRangeMin`..`cutValueRangeMax` will be discarded.
