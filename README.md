@@ -165,11 +165,6 @@ Allows the saving of the scene. *Does it allow saving of the reference images*
 
 <img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Saves.png" width="50%" height="auto">
 
-# Objects - do we need to keep this if it is available from the volumes directory
-You can load .obj format 3D meshes into BabelVR. Place any objects in the Babel > Objects folder and they will appear here. These objects can also be used as an excluder.
-
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Objects.png" width="50%" height="auto">
-
 # Landmarks
 * Ray Based draw - the landmark will be constrained to move across the surface of the object. This experimental feature in theory makes it easier to position a landmark on the surface.
 * Pyramid Mesh Style - landmark will be a downward shaped pyramid, the point of which is the exact landmark position. The alternative is a low poly sphere.
