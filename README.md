@@ -6,7 +6,7 @@ This is a repository for releases of BabelVR executables.
 Biological objects both at the macro and micro level often have complex 3D architectures that can be difficult to interpret, measure and manipulate using traditional 2D software. In geometric morphometric analysis, understanding shape variation in 3D images generated from different anatomical structures requires time-consuming landmarking procedures before such analyses can be undertaken.  We present BabelVR as a novel application allowing interaction with 3D images, which has specific enhancements to aid measurement and landmarking of biological object(s) using Virtual Reality.
 
 # Overview
-BabelVR is a general purpose method for visualising 3D volumetric data using either HTC Vive or Oculus Rift / Quest. 
+BabelVR is a general purpose method for visualising 3D volumetric data using either HTC Vive or Meta Rift / Quest. 
 More recently we have been focusing on use cases for the process of landmarking complex 3D images. Using Virtual Reality allows you to place these pointers very accurately on the surface or even inside the object you are working with, which can be more difficult using traditional 2D workflows. You can then export these landmarks to packages such as [MorphoJ](https://morphometrics.uk/MorphoJ_page.html)
 
 
