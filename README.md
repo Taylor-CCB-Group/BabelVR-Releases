@@ -193,7 +193,7 @@ Erase allows removal of parts of the volume (voxels). It works in the same way a
 <img src="images/Menu_Eraser.png" width="50%" height="auto">
 
 # Undo
-Shows a history if all the operations that can be undone / redone.
+Shows a history of all the operations that can be undone / redone.
 
 <img src="images/Menu_UndoRedo.png" width="50%" height="auto">
 
