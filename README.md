@@ -10,12 +10,8 @@ BabelVR is a general purpose method for visualising 3D volumetric data using eit
 More recently we have been focusing on use cases for the process of landmarking complex 3D images. Using Virtual Reality allows you to place these pointers very accurately on the surface or even inside the object you are working with, which can be more difficult using traditional 2D workflows. You can then export these landmarks to packages such as [MorphoJ](https://morphometrics.uk/MorphoJ_page.html)
 
 
-
-<a href="https://www.youtube.com/watch?v=XzY7f1UY25o">
-<img alt="Doing landmarking" src="https://img.youtube.com/vi/XzY7f1UY25o/0.jpg">
-</a>
-
-Figure 1: Introductory video showing landmarking using BabelVR. Click on the image above to see a video.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XzY7f1UY25o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*Figure 1: Introductory video showing landmarking using BabelVR. Click on the image above to see a video.*
 
 # Getting started
 When you first run BabelVR, a folder is created in your user Documents `"%UserProfile%\Documents\Babel"`.
