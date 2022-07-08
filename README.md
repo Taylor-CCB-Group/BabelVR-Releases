@@ -39,7 +39,7 @@ other settings and functions.
 
 # Controllers HTC Vive
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/ViveControllers.png" width="50%" height="auto">
+<img src="images/ViveControllers.png" width="50%" height="auto">
 
 Is in the dominant hand (left or right). Image shows a Vive controller. 
 
@@ -50,7 +50,7 @@ Here is a schematic of the Meta Quest controllers
 
 ***
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Quest2Controllers.png">
+<img src="images/Quest2Controllers.png">
 
 ***
 In the software they look like this. Access the different functions by moving the thumbsticks on the controller and clicking on the top of the thumbstick.
@@ -73,12 +73,12 @@ It is advised *NOT* to tamper with the other folders in the `BabelVR` directory 
 # Menus
 These icons are ways of getting access to properties of the different functions of BabelVR. The functions are mostly accessed from the right controller by the trackpad (HTC Vive) or thumbstick (Meta Quest).
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/BabelVRArcMenuFigure.png">
+<img src="images/BabelVRArcMenuFigure.png">
 
 # Volumes 
 Nii files can be accessed here.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Volumes.png">
+<img src="images/Menu_Volumes.png">
 There are various settings that you can apply to the loaded volume which can be accessed buy the COG icon on the menu bar.
 
 ## Settings
@@ -93,7 +93,7 @@ Figure 2: Video showing an overview of settings / volume info menu functionality
 
 This allows you to directly interact with one volume. If you have loaded more that one volume in the space you can separate out these into multiple objects.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo1.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo1.png" width="50%" height="auto">
 
 ## Data
 This is very useful for rescaling the values of the voxels of the volume.
@@ -103,60 +103,60 @@ _value_ has a range associated with it (`valueRangeMin` and `valueRangeMax`): vo
 
 and similarly _cutValue_; values outside the range `cutValueRangeMin`..`cutValueRangeMax` will be discarded.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo2.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo2.png" width="50%" height="auto">
 
 ## Properties
 Allows the adjustment of contrast, brightness and opacity of the volume.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo3.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo3.png" width="50%" height="auto">
 
 ## Light
 when Enabled activates light simulation / ray tracing. You will see a torch that can be picked up and positioned anywhere in the scene to adjust the light flow. This is useful to create a more realistic appearance or to resolve certain features. Surface threshold (opacity), alpha, shininess and colouring of the light (ambient / diffuse / specular) can be adjusted. 
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo4.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo4.png" width="50%" height="auto">
 
 
 ## Exclusion
 This is used to be able to slice or exclude part of object. For example you want to partially exclude a skull so you can look inside. If you check the _Excluder_ _Active_ box (by default) a grey cube will appear that can be picked up and positioned to exclude regions of the volume.
 Checking _Invert_ _Culling_ only shows the volume when it is contained inside the cube, so the visible surface is the side of a cube.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo5.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo5.png" width="50%" height="auto">
 
 ## Colour
 Allows you to upload a 256 x 256 pixel transfer gradient PNG (these should be placed in the Babel > Transfers directory. This allows colouring of certain densities with colour which can be useful for highlighting features.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo6.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo6.png" width="50%" height="auto">
 
 ## Label
 Turns the labelling of the volume on / off and also can vary it's size.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo7.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo7.png" width="50%" height="auto">
 
 ## Scale 
 Resize the voxels of the image on the x, y, or z axis. Useful if the image has been imported with incorrect relative dimensions.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo8.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo8.png" width="50%" height="auto">
 
 ## Rendering
 Increase the number of samples on the ray cast which can improve the volume rendering quality and avoid colour fringing.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_VolumeInfo9.png" width="50%" height="auto">
+<img src="images/Menu_VolumeInfo9.png" width="50%" height="auto">
 
 # Reference Annotations
 You can upload landmark reference annotations as a csv file defining the name, colour and description of each landmark in Babel > Groups directory.
 Colour is helpful as aide for left / right positioning. In this case we have used red for right, green for left based markers and white for everything else.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Groups.png" width="50%" height="auto">
+<img src="images/Menu_Groups.png" width="50%" height="auto">
 
 # Lines
 Show the distances between each landmark as it is drawn.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Lines.png" width="50%" height="auto">
+<img src="images/Menu_Lines.png" width="50%" height="auto">
 
 # Save
 Allows the saving of the scene. *Does it allow saving of the reference images*
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Saves.png" width="50%" height="auto">
+<img src="images/Menu_Saves.png" width="50%" height="auto">
 
 # Landmarks
 * Ray Based draw - the landmark will be constrained to move across the surface of the object. This experimental feature in theory makes it easier to position a landmark on the surface.
@@ -165,15 +165,15 @@ Allows the saving of the scene. *Does it allow saving of the reference images*
 * Continuous Draw - Draws points continuously when the trigger is held down
 * Snap to excluder - Landmarks will follow excluders contours where available
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Brushes.png" width="50%" height="auto">
+<img src="images/Menu_Brushes.png" width="50%" height="auto">
 
 # Delete
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Delete.png" width="50%" height="auto">
+<img src="images/Menu_Delete.png" width="50%" height="auto">
 
 # Slow down speed
 This allows the volume movement to be dampened to allow very fine operations / movements. Adjusting the _Factor_ increases / decreases the dampening effect. 
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Movement.png" width="50%" height="auto">
+<img src="images/Menu_Movement.png" width="50%" height="auto">
 
 # Tape measure
 Properties of the measuring tool. 
@@ -181,7 +181,7 @@ Properties of the measuring tool.
 * Double Handed - uses both controllers to do the measurement
 * Stay after release - means just that, otherwise it disappears quickly
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Tape.png" width="50%" height="auto">
+<img src="images/Menu_Tape.png" width="50%" height="auto">
 
 # Snapshot
 This allows you to take pictures within BabelVR of your volume from different angles. 
@@ -190,11 +190,11 @@ This allows you to take pictures within BabelVR of your volume from different an
 * Attached to active volume - the Camera will move when you move the volume
 * Attach light to camera - attach the torch to the camera 
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Camera.png" width="50%" height="auto">
+<img src="images/Menu_Camera.png" width="50%" height="auto">
 
 # Object creator -----? Get rid of this
 A way of creating custom meshes.
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Mesh.png" width="50%" height="auto">
+<img src="images/Menu_Mesh.png" width="50%" height="auto">
 
 # Eraser
 Erase allows removal of parts of the volume (voxels). It works in the same way as the "Excluder" function but draws continuous metaballs to exclude parts of the volume.
@@ -202,21 +202,21 @@ Erase allows removal of parts of the volume (voxels). It works in the same way a
 * Alpha - Opacity of the metaball 
 * Show Outline - shows a yellow outline around the excluded area
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Eraser.png" width="50%" height="auto">
+<img src="images/Menu_Eraser.png" width="50%" height="auto">
 
 # Undo
 Shows a history if all the operations that can be undone / redone
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_UndoRedo.png" width="50%" height="auto">
+<img src="images/Menu_UndoRedo.png" width="50%" height="auto">
 
 # Reference image
 if PNGs or JPGs are place in the folder Babel > References these will be seen as a list in this panel. Activating the check boxes will bring show the reference image in the virtual world. 
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_RefImages.png" width="50%" height="auto">
+<img src="images/Menu_RefImages.png" width="50%" height="auto">
 
 # Debug console
 This is good way of reporting errors. If you see a problem checking this the row(s) will send an email to the developers.
 
-<img src="https://github.com/Taylor-CCB-Group/BabelVR/blob/master/Assets/Resources/Menu_Debug.png" width="50%" height="auto">
+<img src="images/Menu_Debug.png" width="50%" height="auto">
 
 
