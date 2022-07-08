@@ -19,13 +19,13 @@ A string (text) indicating what physical units the above measurements are in.
 Any of `µm` `um` or `microns` will be interpreted as micrometers. Other valid inputs are `meter`, `milimeter`, `mm`.
 
 ## imageWidth, imageHeight, channels, slices
-Integer values for the image size.
+Integer values for the image size. Channels should be 1 for scalar data, 3 for rgb, etc.
 
 ## frames
 This relates to a currently unsupported feature relating to multi-frame video data that. Can be set to `-1` in normal circumstances.
 
 # Example
-For a file `STACK_3_2021_Rec.nii` with 762 slices of 500x500px
+For a file `STACK_3_2021_Rec.nii` with 762 slices of 500x500px, where each voxel should be 35.16µm³:
 
 ```
 STACK_3_2021_Rec.nii,35.16,35.16,35.16,um,500,500,1,762,-1
