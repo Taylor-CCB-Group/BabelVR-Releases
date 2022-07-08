@@ -148,11 +148,6 @@ Colour is helpful as aide for left / right positioning. In this case we have use
 
 <img src="images/Menu_Groups.png" width="50%" height="auto">
 
-# Lines
-Show the distances between each landmark as it is drawn.
-
-<img src="images/Menu_Lines.png" width="50%" height="auto">
-
 # Save
 Allows the saving of the scene. *Does it allow saving of the reference images*
 
@@ -169,11 +164,6 @@ Allows the saving of the scene. *Does it allow saving of the reference images*
 
 # Delete
 <img src="images/Menu_Delete.png" width="50%" height="auto">
-
-# Slow down speed
-This allows the volume movement to be dampened to allow very fine operations / movements. Adjusting the _Factor_ increases / decreases the dampening effect. 
-
-<img src="images/Menu_Movement.png" width="50%" height="auto">
 
 # Tape measure
 Properties of the measuring tool. 
@@ -192,30 +182,31 @@ This allows you to take pictures within BabelVR of your volume from different an
 
 <img src="images/Menu_Camera.png" width="50%" height="auto">
 
-# Object creator -----? Get rid of this
-A way of creating custom meshes.
-<img src="images/Menu_Mesh.png" width="50%" height="auto">
-
 # Eraser
 Erase allows removal of parts of the volume (voxels). It works in the same way as the "Excluder" function but draws continuous metaballs to exclude parts of the volume.
 * Size - size of the metaball
-* Alpha - Opacity of the metaball 
 * Show Outline - shows a yellow outline around the excluded area
 
 <img src="images/Menu_Eraser.png" width="50%" height="auto">
 
 # Undo
-Shows a history if all the operations that can be undone / redone
+Shows a history if all the operations that can be undone / redone.
 
 <img src="images/Menu_UndoRedo.png" width="50%" height="auto">
 
-# Reference image
-if PNGs or JPGs are place in the folder Babel > References these will be seen as a list in this panel. Activating the check boxes will bring show the reference image in the virtual world. 
+# Reference images
+if PNGs or JPGs are place in the folder Babel > References these will be seen as a list in this panel. Activating the check boxes will show the reference image in the virtual world.
+
+They can be moved to their default position adjacent to the panel by pressing the 'reset' arrow button.
+
+The contents of this folder is polled, so it is possible to add new images during a session by using standard file-system operations on the desktop.
 
 <img src="images/Menu_RefImages.png" width="50%" height="auto">
 
+The large "enabled" toggle at the top of the list can be disabled to hide all images.
+
 # Debug console
-This is good way of reporting errors. If you see a problem checking this the row(s) will send an email to the developers.
+This allows you to view application logs at runtime. If you experience errors or unexpected behaviour, this can be used to create a draft email which may help us to understand the issue.
 
 <img src="images/Menu_Debug.png" width="50%" height="auto">
 
