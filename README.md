@@ -142,7 +142,7 @@ Resize the voxels of the image on the x, y, or z axis. Useful if the image has b
 <img src="images/Menu_VolumeInfo8.png" width="50%" height="auto">
 
 ## Rendering
-Increase the number of samples on the ray cast which can improve the volume rendering quality and avoid colour fringing.
+Increase the number of samples on the ray cast which can improve the volume rendering quality and avoid colour fringing, at the cost of performance.
 
 <img src="images/Menu_VolumeInfo9.png" width="50%" height="auto">
 
@@ -153,16 +153,15 @@ Colour is helpful as aide for left / right positioning. In this case we have use
 <img src="images/Menu_Groups.png" width="50%" height="auto">
 
 # Save
-Allows the saving of the scene. *Does it allow saving of the reference images*
+Provides various options for saving and exporting data.
 
 <img src="images/Menu_Saves.png" width="50%" height="auto">
 
 # Landmarks
 * Ray Based draw - the landmark will be constrained to move across the surface of the object. This experimental feature in theory makes it easier to position a landmark on the surface.
-* Pyramid Mesh Style - landmark will be a downward shaped pyramid, the point of which is the exact landmark position. The alternative is a low poly sphere.
 * Add Labels - Shows the label based on the reference file
 * Continuous Draw - Draws points continuously when the trigger is held down
-* Snap to excluder - Landmarks will follow excluders contours where available
+* Snap to excluder - Landmarks will follow excluders contours where available ===did I get rid of this?===
 
 <img src="images/Menu_Brushes.png" width="50%" height="auto">
 
@@ -171,9 +170,9 @@ Allows the saving of the scene. *Does it allow saving of the reference images*
 
 # Tape measure
 Properties of the measuring tool. 
-* Single Handed - uses one controller
-* Double Handed - uses both controllers to do the measurement
-* Stay after release - means just that, otherwise it disappears quickly
+* Single Handed - uses one controller, clicking and dragging to measure the distance dragged.
+* Double Handed - uses both controllers to measure the distance from one to the other.
+* Stay after release - means just that, otherwise it disappears quickly.
 
 <img src="images/Menu_Tape.png" width="50%" height="auto">
 
@@ -207,10 +206,10 @@ The contents of this folder is polled, so it is possible to add new images durin
 
 <img src="images/Menu_RefImages.png" width="50%" height="auto">
 
-The large "enabled" toggle at the top of the list can be disabled to hide all images.
+The large "enabled" toggle at the top of the list can be used to temporarily hide all images.
 
 # Debug console
-This allows you to view application logs at runtime. If you experience errors or unexpected behaviour, this can be used to create a draft email which may help us to understand the issue.
+This allows you to view application logs at runtime. If you experience errors or unexpected behaviour, this can be used to create a draft email which may help us to diagnose the issue.
 
 <img src="images/Menu_Debug.png" width="50%" height="auto">
 
