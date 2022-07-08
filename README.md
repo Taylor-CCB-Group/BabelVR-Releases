@@ -22,12 +22,12 @@ When you first run BabelVR, a folder is created in your user Documents `"%UserPr
 
 This contains various subfolders with data to be loaded into the program (`Nii` format volumetric data, `Obj` meshes...), configuration files (which in most cases you are unlikely to need to be aware of), and any saved or exported data (such as landmark data created from within the app).
 
-# Image files
+## Image files
 
 In order to bring new data into the program, you copy files into the `Nii` or `Objects` folders, which will be scanned when the program starts and used to populate the "Volumes" GUI. The Nii files can be generated from DICOM or any 3D stack images (including colour) using software such as [Fiji](https://imagej.net/software/fiji/) via "Save as" using the [Nii plugin](https://imagej.nih.gov/ij/plugins/nifti.html)
 
 
-# Interacting in VR
+## Interacting in VR
 
 There are two controllers with the Vive or Oculus headset. 
 VR is a relatively new way of interacting with 3D objects. Instead of mouse you use controllers. We will refer to controller 1 and 2. Both controllers allow activation of a laser pointer to point and select menu items using the trigger. You can close down menus by clicking on the X in the top left corner of the panel. 
@@ -41,7 +41,7 @@ other settings and functions.
 
 <img src="images/ViveControllers.png" width="50%" height="auto">
 
-Is in the dominant hand (left or right). Image shows a Vive controller. 
+Is in the dominant hand (left or right). Image shows a Vive controller.
 
 The circular menu (accessed via track pad on Vive and thumbstick on Quest) activates the function. See the Quest diagram below that shows the icons on the controllers. 
 
@@ -75,13 +75,14 @@ These icons are ways of getting access to properties of the different functions 
 
 <img src="images/BabelVRArcMenuFigure.png">
 
-# Volumes 
+## Volumes 
 Nii files can be accessed here.
 
 <img src="images/Menu_Volumes.png">
 There are various settings that you can apply to the loaded volume which can be accessed buy the COG icon on the menu bar.
 
 ## Settings
+This menu contains settings that apply to the currently open and 'active' volume. Mostly, these settings are to do with parameters used for rendering (note that many of these will have no effect if the object is an `obj` mesh).
 
 <a href="https://youtu.be/I_Uh4zqGcK8">
 <img alt="Overview of settings / volume info menu" src="https://img.youtube.com/vi/I_Uh4zqGcK8/0.jpg">
@@ -91,49 +92,52 @@ Figure 2: Video showing an overview of settings / volume info menu functionality
 
 ### Manipulation
 
-This allows you to directly interact with one volume. If you have loaded more that one volume in the space you can separate out these into multiple objects.
+This determines how the object will behave in relation to it's landmarks when it is grabbed or manipulated.
+
+**Manipulate volume**: if this is disabled, it prevents the object itself from being moved. This can be useful when moving landmarks to avoid accidentally moving the entire model.
+
+**Seperate children**: When enabled, this allows the object to be moved without corresponding landmarks moving with it. It can be useful when attempting to re-allign a model to a set of existing landmarks from a different model.
 
 <img src="images/Menu_VolumeInfo1.png" width="50%" height="auto">
 
-## Data
-This is very useful for rescaling the values of the voxels of the volume.
+### Data
+This is very useful for rescaling the values of the voxels of the volume used in rendering.
 
-_value_ has a range associated with it (`valueRangeMin` and `valueRangeMax`): voxel density values will be scaled according to the formula:
-`(max(voxel.rgb) - valueRangeMin) / (valueRangeMax - valueRangeMin)`.
+Voxel intensity will be normalised to the range determined by the lower and upper "Value Range" slider positions.
 
-and similarly _cutValue_; values outside the range `cutValueRangeMin`..`cutValueRangeMax` will be discarded.
+Values outside of the range set by the "Cut Value Range" slider will be discarded.
 
 <img src="images/Menu_VolumeInfo2.png" width="50%" height="auto">
 
-## Properties
+### Properties
 Allows the adjustment of contrast, brightness and opacity of the volume.
 
 <img src="images/Menu_VolumeInfo3.png" width="50%" height="auto">
 
-## Light
+### Light
 when Enabled activates light simulation / ray tracing. You will see a torch that can be picked up and positioned anywhere in the scene to adjust the light flow. This is useful to create a more realistic appearance or to resolve certain features. Surface threshold (opacity), alpha, shininess and colouring of the light (ambient / diffuse / specular) can be adjusted. 
 
 <img src="images/Menu_VolumeInfo4.png" width="50%" height="auto">
 
 
-## Exclusion
+### Exclusion
 This is used to be able to slice or exclude part of object. For example you want to partially exclude a skull so you can look inside. If you check the _Excluder_ _Active_ box (by default) a grey cube will appear that can be picked up and positioned to exclude regions of the volume.
 Checking _Invert_ _Culling_ only shows the volume when it is contained inside the cube, so the visible surface is the side of a cube.
 
 <img src="images/Menu_VolumeInfo5.png" width="50%" height="auto">
 
-## Colour
-Allows you to upload a 256 x 256 pixel transfer gradient PNG (these should be placed in the Babel > Transfers directory. This allows colouring of certain densities with colour which can be useful for highlighting features.
+### Colour
+Transfer gradient images consisting of 256 x 256 pixel PNGs placed in the Babel > Transfers directory can be applied here. This allows colouring of certain densities with colour which can be useful for highlighting features. We may in future provide interfaces for determining gradient transfer curves within the application.
 
 <img src="images/Menu_VolumeInfo6.png" width="50%" height="auto">
 
-## Label
-Turns the labelling of the volume on / off and also can vary it's size.
+### Label
+Turns a file-name label for the volume on / off and also can vary it's size.
 
 <img src="images/Menu_VolumeInfo7.png" width="50%" height="auto">
 
 ## Scale 
-Resize the voxels of the image on the x, y, or z axis. Useful if the image has been imported with incorrect relative dimensions.
+Resize the voxels of the image on the x, y, or z axis. Useful if the image has been imported with incorrect relative dimensions - although it should be noted that there is also a feature for [overriding scale metadata](overrides.csv) from outside of the application.
 
 <img src="images/Menu_VolumeInfo8.png" width="50%" height="auto">
 
