@@ -32,7 +32,7 @@ In order to bring new data into the program, you copy files into the `Nii` or `O
 There are two controllers with the Vive or Oculus headset. 
 VR is a relatively new way of interacting with 3D objects. Instead of mouse you use controllers. We will refer to controller 1 and 2. Both controllers allow activation of a laser pointer to point and select menu items using the trigger. You can close down menus by clicking on the X in the top left corner of the panel. 
 
-Each controller has a "grab zone" (the downward facing pyramid) which when you move over the object and then press the grab buttons(s) it allows you to grab the object (the outline of the selected object will highlight). This means to you can then move it around in the 3D space as long as you hold on to it.
+Each controller has a "grab zone" which when you move over the object and then press the grab buttons(s) it allows you to grab the object (the outline of the selected object will highlight). This means to you can then manipulate it in the 3D space as long as you hold on to it. This applies to most elements that you encounter in the application: GUI panels, landmarks, volumes etc.
 
 Controller 1 is used to activate the function via the circular menu and the Menu bar is used to access settings for each button and 
 other settings and functions.
