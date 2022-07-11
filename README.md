@@ -10,7 +10,8 @@ BabelVR is a general purpose method for visualising 3D volumetric data using eit
 More recently we have been focusing on use cases for the process of landmarking complex 3D images. Using Virtual Reality allows you to place these pointers very accurately on the surface or even inside the object you are working with, which can be more difficult using traditional 2D workflows. You can then export these landmarks to packages such as [MorphoJ](https://morphometrics.uk/MorphoJ_page.html)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XzY7f1UY25o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XzY7f1UY25o" title="Landmarking tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Figure 1: Introductory video showing landmarking using BabelVR.*
 
 # Getting started
@@ -80,11 +81,9 @@ There are various settings that you can apply to the loaded volume which can be 
 ## Settings
 This menu contains settings that apply to the currently open and 'active' volume. Mostly, these settings are to do with parameters used for rendering (note that many of these will have no effect if the object is an `obj` mesh).
 
-<a href="https://youtu.be/I_Uh4zqGcK8">
-<img alt="Overview of settings / volume info menu" src="https://img.youtube.com/vi/I_Uh4zqGcK8/0.jpg">
-</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I_Uh4zqGcK8" title="Overview of settings / volume info menu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Figure 2: Video showing an overview of settings / volume info menu functionality
+*Figure 2: Video showing an overview of settings / volume info menu functionality.*
 
 ### Manipulation
 
@@ -146,12 +145,12 @@ Increase the number of samples on the ray cast which can improve the volume rend
 You can upload landmark reference annotations as a csv file defining the name, colour and description of each landmark in Babel > Groups directory.
 Colour is helpful as aide for left / right positioning. In this case we have used red for right, green for left based markers and white for everything else.
 
-<img src="images/Menu_Groups.png" width="50%" height="auto">
+<img src="images2/Menu_Groups.png" width="50%" height="auto">
 
 # Save
 Provides various options for saving and exporting data.
 
-<img src="images/Menu_Saves.png" width="50%" height="auto">
+<img src="images2/Menu_Saves.png" width="50%" height="auto">
 
 # Landmarks
 * Ray Based draw - the landmark will be constrained to move across the surface of the object. This experimental feature in theory makes it easier to position a landmark on the surface.
@@ -159,10 +158,10 @@ Provides various options for saving and exporting data.
 * Continuous Draw - Draws points continuously when the trigger is held down
 * Snap to excluder - Landmarks will follow excluders contours where available ===did I get rid of this?===
 
-<img src="images/Menu_Brushes.png" width="50%" height="auto">
+<img src="images2/Menu_Landmarks.png" width="50%" height="auto">
 
 # Delete
-<img src="images/Menu_Delete.png" width="50%" height="auto">
+<img src="images2/Menu_Delete.png" width="50%" height="auto">
 
 # Tape measure
 Properties of the measuring tool. 
@@ -170,23 +169,23 @@ Properties of the measuring tool.
 * Double Handed - uses both controllers to measure the distance from one to the other.
 * Stay after release - means just that, otherwise it disappears quickly.
 
-<img src="images/Menu_Tape.png" width="50%" height="auto">
+<img src="images2/Menu_Measure.png" width="50%" height="auto">
 
 # Snapshot
-This allows you to take pictures within BabelVR of your volume from different angles. 
+This allows you to take pictures within BabelVR of your volume from different angles. A manipulatable object is placed into the scene, which shows a preview of the camera image, allowing you to frame it appropriately.
 
 * Enabled - start the Snapshot function
 * Attached to active volume - the Camera will move when you move the volume
 * Attach light to camera - attach the torch to the camera 
 
-<img src="images/Menu_Camera.png" width="50%" height="auto">
+<img src="images2/Menu_Camera.png" width="50%" height="auto">
 
 # Eraser
 Erase allows removal of parts of the volume (voxels). It works in the same way as the "Excluder" function but draws continuous metaballs to exclude parts of the volume.
 * Size - size of the metaball
 * Show Outline - shows a yellow outline around the excluded area
 
-<img src="images/Menu_Eraser.png" width="50%" height="auto">
+<img src="images2/Menu_Eraser.png" width="50%" height="auto">
 
 # Undo
 Shows a history of all the operations that can be undone / redone.
@@ -200,13 +199,13 @@ They can be moved to their default position adjacent to the panel by pressing th
 
 The contents of this folder is polled, so it is possible to add new images during a session by using standard file-system operations on the desktop.
 
-<img src="images/Menu_RefImages.png" width="50%" height="auto">
+<img src="images2/Menu_RefImg.png" width="50%" height="auto">
 
 The large "enabled" toggle at the top of the list can be used to temporarily hide all images.
 
 # Debug console
 This allows you to view application logs at runtime. If you experience errors or unexpected behaviour, this can be used to create a draft email which may help us to diagnose the issue.
 
-<img src="images/Menu_Debug.png" width="50%" height="auto">
+<img src="images2/Menu_Debug.png" width="50%" height="auto">
 
 
