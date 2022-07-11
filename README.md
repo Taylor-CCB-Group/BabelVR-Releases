@@ -11,7 +11,7 @@ More recently we have been focusing on use cases for the process of landmarking 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XzY7f1UY25o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-*Figure 1: Introductory video showing landmarking using BabelVR. Click on the image above to see a video.*
+*Figure 1: Introductory video showing landmarking using BabelVR.*
 
 # Getting started
 When you first run BabelVR, a folder is created in your user Documents `"%UserProfile%\Documents\Babel"`.
