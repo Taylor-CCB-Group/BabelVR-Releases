@@ -7,9 +7,9 @@
 Example published data to view in BabelVR
 (to go in the "Babel/Nii" directory)
 
-control_skull.nii
-cranio_skull_1.nii
-cranio_skull_2.nii
+* control_skull.nii
+* cranio_skull_1.nii
+* cranio_skull_2.nii
 
 Mouse Skulls of Control and Erf mutations from 
 
@@ -18,18 +18,20 @@ Twigg, Stephen R. F., Elena Vorgia, Simon J. McGowan, Ioanna Peraki, Aimée L. F
 ## Reference images
 (to go in the "Babel/Reference Images" directory)
 
-landmarks1.png
-landmarks2.png
-landmarks3.png
-landmarks4.png
-landmarks5.png
-landmarks6.png
+Used as a guide for landmarking these show different landmark regions on the skull.
 
-Used as a guide for landmarking. 
+* landmarks1.png
+* landmarks2.png
+* landmarks3.png
+* landmarks4.png
+* landmarks5.png
+* landmarks6.png
+
+
 
 ## Groups
 (to go in the "Babel/Groups" directory)
-CSV file of a naming scheme. These labels will be applied to each landmark as they placed on the skull object.
+CSV file of a naming scheme. These labels will be applied to each landmark if selected in groups as they are placed on the skull object.
 
-Landmarks_SachikoImages.csv
+* Landmarks_SachikoImages.csv
 
