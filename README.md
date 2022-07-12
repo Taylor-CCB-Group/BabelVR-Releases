@@ -15,7 +15,23 @@ More recently we have been focusing on use cases for the process of landmarking 
 *Figure 1: Introductory video showing landmarking using BabelVR.*
 
 # Getting started
-When you first run BabelVR, a folder is created in your user Documents `"%UserProfile%\Documents\Babel"`.
+
+BabelVR runs on a VR Ready PC. The minium spec for this is:
+
+* GPU: NVIDIA GTX 970 / AMD R9 290 equivalent or greater.
+* CPU: Intel i5-4590 equivalent or greater.
+* RAM: 8GB+
+* Video Output Compatible HDMI 1.3 video output.
+* USB Ports 3x USB 3.0 ports plus 1x USB 2.0 port.
+* OS Windows 7 SP1 64 bit or newer.
+
+You will also need and HTC Vive or Meta Quest headet (with link cable or use airlink).
+
+Download the latest release (zip) from the the releases section of the website. In folder you will see a file called
+
+`Babel Brush.exe"
+
+When you first run this a folder is created in your User Documents area `"%UserProfile%\Documents\Babel"`. You will also see a BabelVR window which can be closed.
 
 This contains various subfolders with data to be loaded into the program (`Nii` format volumetric data, `Obj` meshes...), configuration files (which in most cases you are unlikely to need to be aware of), and any saved or exported data (such as landmark data created from within the app).
 
@@ -23,6 +39,9 @@ This contains various subfolders with data to be loaded into the program (`Nii` 
 
 In order to bring new data into the program, you copy files into the `Nii` or `Objects` folders, which will be scanned when the program starts and used to populate the "Volumes" GUI. The Nii files can be generated from DICOM or any 3D stack images (including colour) using software such as [Fiji](https://imagej.net/software/fiji/) via "Save as" using the [Nii plugin](https://imagej.nih.gov/ij/plugins/nifti.html)
 
+When you run the program again with your VR headset connected you will see the menu bar, your controllers and a cube. This is where you will load your 3D image.
+
+We strongly recommend you watch the introductory video to get a feel for what can be done with BabelVR.
 
 ## Interacting in VR
 
