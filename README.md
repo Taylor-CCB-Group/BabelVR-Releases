@@ -3,6 +3,8 @@ This is a repository for releases of BabelVR executables.
 
 <a href="https://github.com/Taylor-CCB-Group/BabelVR-Releases/releases/download/v1.0/2022-07-12-v1.0.zip" class="btn" style="color: #159957; border-color: #159957">Download Now (Windows)</a>
 
+<a href="https://github.com/Taylor-CCB-Group/BabelVR-Releases/tree/main/example_data">Example Data</a>
+
 # Abstract
 
 Biological objects both at the macro and micro level often have complex 3D architectures that can be difficult to interpret, measure and manipulate using traditional 2D software. In geometric morphometric analysis, understanding shape variation in 3D images generated from different anatomical structures requires time-consuming landmarking procedures before such analyses can be undertaken.  We present BabelVR as a novel application allowing interaction with 3D images, which has specific enhancements to aid measurement and landmarking of biological object(s) using Virtual Reality.
