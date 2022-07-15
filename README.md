@@ -1,7 +1,7 @@
 # BabelVR-Releases
 This is a repository for releases of BabelVR executables.
 
-<a href="https://github.com/Taylor-CCB-Group/BabelVR-Releases/releases/download/v1.0/2022-07-12-v1.0.zip" class="btn">Download Now (Windows)</a>
+<a href="https://github.com/Taylor-CCB-Group/BabelVR-Releases/releases/download/v1.0/2022-07-12-v1.0.zip" class="btn" style="color: #159957; border-color: #159957">Download Now (Windows)</a>
 
 # Abstract
 
