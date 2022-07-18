@@ -29,7 +29,7 @@ BabelVR runs on a VR Ready PC. The minium spec for this is:
 * USB Ports 3x USB 3.0 ports plus 1x USB 2.0 port.
 * OS Windows 7 SP1 64 bit or newer.
 
-You will also need and HTC Vive or Meta Quest headet (with link cable or use airlink).
+You will also need and HTC Vive or Meta Quest headet (with link cable or use airlink). Before starting, you make sure that your hardware is running correctly with SteamVR.
 
 Download the latest release (zip) from the the releases section of the website. In folder you will see a file called
 
